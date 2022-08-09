@@ -1,3 +1,5 @@
+[![ci](https://github.com/zarguell/MagLit-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/zarguell/MagLit-docker/actions/workflows/docker-image.yml)
+
 <div align="center"><a href="https://vercel.com/?utm_source=mag-lit&utm_campaign=oss"><img src="https://user-images.githubusercontent.com/25067102/178521042-fc564081-9b44-4988-aa80-eb53f57642d5.svg" /></a>
 
 MagLit has been sponsored by Vercel. Many thanks to Vercel!
