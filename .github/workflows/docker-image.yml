@@ -32,4 +32,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pashword:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MagLit:latest
