@@ -1,5 +1,5 @@
 # Dockerfile
-ARG NODE_VERSION=17
+ARG NODE_VERSION=17.9.1
 
 # The base image with updates applied
 FROM node:$NODE_VERSION-alpine
