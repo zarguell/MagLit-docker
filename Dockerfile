@@ -1,6 +1,8 @@
 # Dockerfile
+ARG         NODE_VERSION=17
 
-FROM node:18.7.0-slim
+# The base image with updates applied
+FROM        node:$NODE_VERSION-alpine
 
 # set workdir and user
 RUN mkdir -p /opt/app
@@ -17,4 +19,4 @@ RUN npm install
 USER app
 EXPOSE 3000
 
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "run", "production" ]
